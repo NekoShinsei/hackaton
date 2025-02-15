@@ -1,4 +1,3 @@
-/* Общие стили */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -8,7 +7,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Шапка с градиентом */
 .hero-header {
     background: linear-gradient(to bottom, #8e2de2, #f4f4f4);
     color: white;
@@ -36,7 +34,6 @@ body {
     animation: fadeInUp 1.5s ease-out;
 }
 
-/* Анимации */
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -59,7 +56,6 @@ body {
     }
 }
 
-/* Основной контент */
 .hero-main {
     padding: 60px 20px;
     text-align: center;
@@ -94,7 +90,6 @@ body {
     margin: 20px 0;
 }
 
-/* Кнопка */
 .hero-button {
     background-color: #4a00e0;
     color: white;
@@ -111,7 +106,6 @@ body {
     transform: translateY(-5px);
 }
 
-/* Подвал */
 .hero-footer {
     background-color: #333;
     color: white;
@@ -126,29 +120,27 @@ body {
 }
 
 .horizontal-container {
-    display: flex; /* Включаем Flexbox */
-    flex-direction: row; /* Элементы располагаются слева направо (по умолчанию) */
-    align-items: center; /* Выравнивание элементов по вертикали (по центру) */
-    justify-content: flex-start; /* Элементы прижимаются к началу контейнера (слева) */
-    gap: 16px; /* Расстояние между элементами */
-    padding: 16px; /* Внутренний отступ контейнера */
-    background-color: #f4f4f4; /* Фон контейнера */
-    border: 1px solid #ddd; /* Рамка контейнера */
-    border-radius: 8px; /* Скругление углов */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 16px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
-/* Стили для элементов внутри контейнера */
 .item {
-    padding: 12px 20px; /* Внутренний отступ элементов */
-    background-color: #4a00e0; /* Фон элементов */
-    color: white; /* Цвет текста */
-    border-radius: 4px; /* Скругление углов элементов */
-    font-size: 1rem; /* Размер текста */
-    text-align: center; /* Выравнивание текста по центру */
-    transition: background-color 0.3s ease; /* Плавное изменение фона */
+    padding: 12px 20px;
+    background-color: #4a00e0;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
 }
 
-/* Эффект при наведении на элементы */
 .item:hover {
-    background-color: #8e2de2; /* Изменение фона при наведении */
+    background-color: #8e2de2;
 }
