@@ -70,9 +70,8 @@ body {
 }
 
 .hero-image {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
+    width: 375px;
+    height: 250px;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -133,7 +132,7 @@ body {
 
 .item {
     padding: 12px 20px;
-    background-color: #4a00e0;
+    background-color: #818181;
     color: white;
     border-radius: 4px;
     font-size: 1rem;
@@ -142,5 +141,5 @@ body {
 }
 
 .item:hover {
-    background-color: #8e2de2;
+    background-color: rgb(111, 111, 111);
 }
