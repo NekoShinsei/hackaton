@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "last_name": "Иванов",
+        "first_name": "Иван",
+        "middle_name": "Иванович",
+        "birth_date": "14.10.1961",
+        "birth_place": "с. Городки, Тюльганский район",
+        "death_date": "02.01.1982",
+        "burial_place": "с. Городки, Тюльганский район",
+        "awards": "Орден Красной Звезды",
+        "latitude": 52.5,
+        "longitude": 56.0
+    },
+    {
+        "id": 2,
+        "last_name": "Петров",
+        "first_name": "Петр",
+        "middle_name": "Петрович",
+        "birth_date": "12.05.1950",
+        "birth_place": "г. Оренбург",
+        "death_date": "15.08.1980",
+        "burial_place": "г. Оренбург",
+        "awards": "Орден Мужества",
+        "latitude": 51.768,
+        "longitude": 55.097
+    }
+]

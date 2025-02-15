@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книга Памяти Оренбургской области</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/map.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+</head>
+<body>
+    <div class="hero-intro">
+    <a class="space"></a>
+    <h1>Книга Памяти Оренбургской области</h1>
+    <div id="map"></div>
+    </div>
+    <ul>
+        {% for memorial in memorials %}
+        <li>
+            <a href="{{ url_for('memorial', memorial_id=memorial['id']) }}">
+                {{ memorial.last_name }} {{ memorial.first_name }} {{ memorial.middle_name }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    <a class="space"></a>
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+</body>
+</html>
