@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Герои Оренбургской области</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <header class="hero-header">
+        <div class="header-content">
+            <h1>Герои военных конфликтов Оренбургской области</h1>
+            <p>Память о подвигах, которые никогда не будут забыты</p>
+        </div>
+    </header>
+
+    <main class="hero-main">
+        <section class="hero-intro">
+            <div class="horizontal-container">
+                <div>
+                    <img alt="Герои Оренбургской области" class="hero-image" src="{{ url_for('static', filename='img/index_hero.jpg') }}"">
+                    <p class="item">Герои - такие-же люди как и мы</p>
+                </div>
+            </div>
+            <p>
+                Оренбургская область гордится своими героями, которые сражались за мир и свободу. 
+                На этой странице мы расскажем о их подвигах и сохраним память о их мужестве.
+            </p>
+        </section>
+
+        <button id="learnMoreBtn" class="hero-button">Карта героев</button>
+    </main>
+
+    <footer class="hero-footer">
+        <p>© 2025 Память о героях. Все права защищены.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>
